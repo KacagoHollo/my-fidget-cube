@@ -19,10 +19,10 @@ const Button = () => {
   console.log(clickMes);
 
 return (
-  <div>
+  <div className="toggle">
     {clickMes.map((click, index) => {
       return (
-        <div key={index}>
+        <div key={index} className="button">
           <button onClick={toggleClick}>{click}</button>
         </div>
       )

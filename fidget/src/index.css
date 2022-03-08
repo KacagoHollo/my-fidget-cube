@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,6 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #ecc19c;
 }
 
 code {
@@ -25,9 +29,13 @@ div.App {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  box-shadow: 10px 20px 20px #1e847f;
+
+  border-radius: 10px;
 }
 
-div.button {
+div.toggle {
   grid-column: 1/2;
   grid-row: 1;
 
@@ -37,18 +45,48 @@ div.button {
   justify-content: space-around;
   align-content: space-around;
   align-items: center;
+
+  margin-top: 90px;
 }
 
-div.button div.counter {
+div.button:nth-of-type(2) {
+  position: absolute;
+  top: 120px;
+}
+div.button:nth-of-type(1) {
+  position: absolute;
+  top: 70px;
+}
+div.button:nth-of-type(5) {
+  position: absolute;
+  top: 360px;
+}
+
+div.counter {
   grid-column: 2/3;
   grid-row: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-left: 3px solid #ecc19c;
 }
 
 button {
-  background-color: #48d68b;
+  background-color: #1e847f;
+  color: #ecc19c;
+  border: 1px solid #1e847f;
+
+  border-radius: 5px;
 
   width: 80px;
   height: 60px;
+
+  box-shadow: 0 0 10px #1e847f;
+
+  font-family: "Fjalla One", sans-serif;
 }
 
 div.button:nth-of-type(2) {
@@ -60,5 +98,12 @@ button:hover {
 }
 
 #count {
-  color: white;
+  color: #ecc19c;
+  font-family: "Fjalla One", sans-serif;
+
+  font-size: 60px;
+}
+
+.counter button {
+  font-size: 48px;
 }
