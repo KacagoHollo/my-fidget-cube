@@ -1,0 +1,19 @@
+{
+  "name": "myfidget",
+  "version": "1.0.0",
+  "description": "A two sided fidget \"cube\". On the first side there are five buttons, one 'Click me!' and 'Loser' others. If you click on the 'Click me!', it changes position. \r You can't click on the other buttons.\r The second side is a counter. The number changes for clicking.",
+  "main": "app.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KacagoHollo/my-fidget-cube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KacagoHollo/my-fidget-cube/issues"
+  },
+  "homepage": "https://github.com/KacagoHollo/my-fidget-cube#readme"
+}
