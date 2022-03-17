@@ -8,5 +8,7 @@ Being made by React.
 
 For more about React and its usage see the README.md at the fidget folder.
 
+It has been posted on DockerHub: https://hub.docker.com/repository/docker/kacagohollo/myfidget
+
 ![image](https://user-images.githubusercontent.com/64640272/157141409-31f59c34-5ce5-4490-b5ec-7c4e0cca4959.png)
 
