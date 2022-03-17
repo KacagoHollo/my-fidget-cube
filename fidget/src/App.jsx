@@ -4,9 +4,14 @@ import Counter from "./Counter"
 
 function App() {
   return (
-    <div className="App">
-      <Button/>
-      <Counter/>
+    <div>
+      <div className='header'>
+        <h1 id='title'>My Fidget Cube</h1>
+      </div>
+      <div className="App">
+        <Button/>
+        <Counter/>
+      </div>
     </div>
   );
 }
