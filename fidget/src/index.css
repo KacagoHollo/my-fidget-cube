@@ -100,6 +100,10 @@ button:hover {
   transform: scale(1.5);
 }
 
+button.toggle:hover {
+  transform: scale(1);
+}
+
 #count {
   color: #ecc19c;
   font-family: "Fjalla One", sans-serif;
