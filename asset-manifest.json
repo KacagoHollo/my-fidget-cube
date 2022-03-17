@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-fidget-cube/static/css/main.48b3c1d7.css",
+    "main.js": "/my-fidget-cube/static/js/main.3bcf1b03.js",
+    "static/js/787.4beb51b2.chunk.js": "/my-fidget-cube/static/js/787.4beb51b2.chunk.js",
+    "index.html": "/my-fidget-cube/index.html",
+    "main.48b3c1d7.css.map": "/my-fidget-cube/static/css/main.48b3c1d7.css.map",
+    "main.3bcf1b03.js.map": "/my-fidget-cube/static/js/main.3bcf1b03.js.map",
+    "787.4beb51b2.chunk.js.map": "/my-fidget-cube/static/js/787.4beb51b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48b3c1d7.css",
+    "static/js/main.3bcf1b03.js"
+  ]
+}
